@@ -1,0 +1,62 @@
+.tx-primary{
+    color: #6b7fd7;
+}
+.tx-secondary{
+    color: #cdcdcd;
+}
+
+.active{
+    background-color: #bcedf6;
+    color: #6b7fd7;
+    font-weight: bold;
+}
+
+/* btn-custom */
+.btn-custom{
+    background-color: #6b7fd7;
+    color: white;
+    border-bottom: 3px solid #4c2a85;
+}
+.btn-custom:hover{
+    color: white;
+    border: 2px solid #6b7fd7;
+}
+/* btn-custom */
+  
+  
+/* btn-outline-custom */
+.btn-outline-custom{
+    color: #6b7fd7;
+    border: 2px solid #6b7fd7;
+}
+.btn-outline-custom:hover{
+    color: white;
+    background-color: #6b7fd7;
+}
+/* btn-outline-custom */
+
+
+/* card-decoration */
+.card-decoration{
+    position: relative;
+}
+.card-decoration::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 35%;
+    background-color: #6b7fd7;
+    right: 0;
+    bottom: 0;
+    border-radius: 50% 5% 5% 50%;
+}
+.text-decoration{
+    position: relative;
+    z-index: 1;
+}
+/* card-decoration */
+
+
+.ico-custom{
+    font-size: 30px;
+}
